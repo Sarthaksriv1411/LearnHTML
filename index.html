@@ -52,6 +52,41 @@ flex-wrap: wrap;
 text-align: center;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    
+}
+
+.navbar a{
+    color:black;
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-size: 50px;
+    height: 50px;
+}
+
+.navbar-links ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-links a{
+    color:black;
+    display: flex;
+    text-decoration: none;
+}
 
 </style>
 
@@ -59,6 +94,19 @@ text-align: center;
 
 
 <body>
+
+    <nav class="navbar">
+        <div class="navbar-brand"><a href="">BR Architects</a></div>
+        <div class="navbar-links">
+            <ul>
+            <a href=""><li>Projects</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Contact</li></a>
+            </ul>
+            
+        </div>
+    </nav>
+
 
 <div class = front_img>
 <img src="https://www.w3schools.com/w3images/architect.jpg" alt="Centered Image">
